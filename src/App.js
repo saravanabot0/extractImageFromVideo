@@ -72,7 +72,7 @@ function App() {
   };
 
   return (
-    <div className="App d-flex flex-column mt-5 align-items-center">
+    <div className="App d-flex flex-column pt-5 align-items-center">
       <h1 className="mb-5 heading"> Upload Your Video and Extract Image From It... </h1>
       <div className="full-content-style">
       <form method="post" className="p-5 overallUploadBox">
