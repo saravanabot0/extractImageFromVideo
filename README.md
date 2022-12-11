@@ -3,7 +3,7 @@ Users can upload a video and extract images from it. Then, you can use the image
 It can be helpful to generate a thumbnail image from an uploaded video.
 
 ## Demo link 
-It can be helpful to generate a thumbnail image from an uploaded video.
+https://famous-stroopwafel-78eb5e.netlify.app/
 
 
 
