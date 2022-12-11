@@ -14,7 +14,6 @@ function App() {
   var blobURL;
 
   const changeHandler = (event) => {
-    // setSelectedFile(event.target.files[0]);
 
     if (event.target.files[0] === undefined) {
       setIsFilePicked(false);
@@ -31,30 +30,10 @@ function App() {
     The new object URL represents the specified File object or Blob object.*/
     console.log(blobURL);
     document.querySelector("video").src = blobURL;
-    // setSelectedFile(blobURL)
   };
 
-  // console.log(selectedFile,"console.log(blobURL)");
 
   const capture = () => {
-    // alert("hi")
-
-    // let canvas = canvasRef.current;
-    //   let context = canvas.getContext("2d");
-    //   let img = new Image();
-    //   console.log(canvas,"canvas")
-    //   //edited from
-    //   console.log(selectedFile,"hello")
-    //   img.crossOrigin = "anonymous";
-    //   img.src = "https://2.bp.blogspot.com/-VTIlinKHDHE/WXiij8jFF-I/AAAAAAAADvs/r2yZ6H6QomUfR_kNBW0F-638aCj98XZvACLcBGAs/s1600/hasil%2Bscan%2B1%2B-%2Bcara%2Bscan%2Btanda%2Btangan.jpg";
-
-    //   context.drawImage(img, 0, 0, 320, 240);
-    //   let tagA = document.createElement("a");
-    //   document.body.appendChild(tagA);
-    //   tagA.href = canvas.toDataURL();
-    //   console.log(tagA,"Atag")
-    // tagA.download = "canvas-image.png";
-
     var canvas = document.getElementById("canvas");
     var video = document.getElementById("video");
     const width = +window
@@ -82,20 +61,12 @@ function App() {
     setDownloadUrl(tagA);
     document.body.appendChild(tagA);
     tagA.href = canvas.toDataURL();
-    // console.log(tagA,"Atag")
     console.log(tagA.href, "imgUrl");
   };
 
-  // document.getElementById("file").onChange = function(event) {
-  //   let file = event.target.file[0];
-  //   let blobURL = URL.createObjectURL(file);
-  //   document.querySelector("video").src = blobURL;
-  // }
   console.log(downloadUrl, "Atag");
 
   const handleDownload = () => {
-    // alert("hi")
-    // console.log(downloadUrl,"click")
     downloadUrl.download = "canvas-image.png";
     downloadUrl.click();
   };
