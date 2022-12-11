@@ -1,5 +1,9 @@
 # extractImageFromVideo
 Users can upload a video and extract images from it. Then, you can use the image for thumbnail. 
+It can be helpful to generate a thumbnail image from an uploaded video.
+
+## Demo link 
+It can be helpful to generate a thumbnail image from an uploaded video.
 
 
 
