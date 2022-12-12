@@ -5,7 +5,8 @@ It can be helpful to generate a thumbnail image from an uploaded video.
 ## Demo link 
 https://famous-stroopwafel-78eb5e.netlify.app/
 
-
+## The output of this project
+https://www.loom.com/share/2a7900775bc84336951ff6a72fb96e52
 
 # Getting Started with Create React App
 
