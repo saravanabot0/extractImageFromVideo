@@ -1,5 +1,5 @@
 # extractImageFromVideo
-In this project i didn't use any library for this, i used only javascript with react js.</br>
+In this project i didn't use any library for this, i used only javascript with react js.</br></br>
 Users can upload a video and extract images from it. Then, you can use the image for thumbnail.</br> 
 It can be helpful to generate a thumbnail image from an uploaded video.
 
